@@ -1,0 +1,9 @@
+campaign:
+  name: sample_campaign
+  daily_limit: 150
+  message_template: "Hello {{name}}, this is an automated engagement message."
+  contacts:
+    - name: John
+      phone: "+1234567890"
+    - name: Sarah
+      phone: "+1987654321"

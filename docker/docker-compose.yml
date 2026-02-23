@@ -1,0 +1,7 @@
+version: '3'
+services:
+  whatsapp-automation:
+    build: .
+    container_name: whatsapp-engagement
+    volumes:
+      - .:/app
